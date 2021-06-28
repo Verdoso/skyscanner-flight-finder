@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: skyscanner-flight-finder
+  jmx:
+    default-domain: ${spring.application.name}
