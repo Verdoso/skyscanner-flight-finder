@@ -21,8 +21,8 @@ public class FlightAvailabilityController {
 
     private final SkyScannerService skyScannerService;
 
-    @GetMapping(value = "/availability/{country}/{currency}/{locale}/{originId}/{destinationId}/{outboundDate}/{inboundDate}")
-    public ResponseEntity<List<APIAvailableFlight>> availability(
+    @GetMapping(value = "/search/{country}/{currency}/{locale}/{originId}/{destinationId}/{outboundDate}/{inboundDate}")
+    public ResponseEntity<List<APIAvailableFlight>> search(
             @PathVariable(value = "outboundDate") @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate outboundDate,
             @PathVariable(value = "inboundDate") @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate inboundDate,
             @PathVariable(value = "country") String country,
