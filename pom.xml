@@ -9,7 +9,7 @@
   </parent>
   <groupId>org.greeneyed</groupId>
   <artifactId>skyscanner-flight-finder</artifactId>
-  <version>0.0.2</version>
+  <version>0.0.3-SNAPSHOT</version>
   <name>sabre-flight-finder</name>
   <description>Small service to locate flight offers through the Skyscanner API</description>
   <properties>
@@ -27,7 +27,7 @@
 
   <scm>
     <developerConnection>scm:git:https://github.com/Verdoso/skyscanner-flight-finder</developerConnection>
-    <tag>v0.0.2</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <dependencies>
