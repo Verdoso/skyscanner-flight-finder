@@ -1,4 +1,4 @@
-package org.greeneyed.hotelf;
+package org.greeneyed.skyscannerf;
 
 import org.greeneyed.skyscannerf.service.SkyScannerService;
 import org.junit.jupiter.api.Test;
