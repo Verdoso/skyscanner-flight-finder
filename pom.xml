@@ -28,7 +28,7 @@
   </properties>
 
   <scm>
-    <developerConnection>scm:git:https://github.com/Verdoso/SabreHotelFinder</developerConnection>
+    <developerConnection>scm:git:https://github.com/Verdoso/skyscanner-flight-finder</developerConnection>
     <tag>HEAD</tag>
   </scm>
 
